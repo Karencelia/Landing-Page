@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foster's Farm</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqz
+    TmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://kit.fontawesome.com/2b73f600fb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#aboutus">About us</a></li>
+            <li><a href="#produce">Produce</a></li>
+            <li><a href="#offerings">Offerings</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact us</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </header>
+    <div class="firstcard">
+        <div class="overlay"></div>
+        <img src="market.jpg" alt="A market">
+        <div class="card-text">
+            <h2>Welcome To <span style="color: green;">Foster's Farms.</span></h2>
+            <h2>A farm for fresh produce.</h2>
+            <p>"At Foster's Farms, we provide you with the 
+                best farm produce for health and longetivity. From 
+                our fruits, vegetables and livestock."
+            </p>
+        </div>
+    </div>
+        
+   
+    <div id="aboutus">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure eum laborum quod!
+             Libero expedita nisi temporibus assumenda adipisci hic sit.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quod impedit quis eos et fuga nam odio sequi, autem iure cum voluptates voluptas
+             ad nobis quidem sed sapiente veritatis vitae rerum.</p>
+    </div>
+
+             <!-- Our Produce Section -->
+        <div id="produce">
+            <h2 style="text-align: center;">Our Produce</h2>
+            <p style="text-align:center; color: forestgreen;">
+                100% PURE & FRESH PRODUCE FROM OUR LOCAL FARM!</p>
+                <div class="check">
+                    <h3 style="text-align: center;">Check out a list of our farm produce</h3>
+                </div>
+                <div id="slider">
+                    <figure>
+                        <img src="applefruit.jpg" alt="Apple fruit">
+                        <img src="fruit.jpg" alt="Fruits">
+                    </figure>
+                <p>Fresh fruits directly from the farm</p>
+                <p>To learn more about our fresh fruits <a href="#">Click Here</a></p>
+            </div>
+            <div id="slider">
+                <figure>
+                    <img src="freshvegetable.jpg" alt="Vegetable">
+                    <img src="veggies.jpg" alt="Vegetable">
+                </figure>
+                <p>Our fresh vegetables from the farm</p>
+                <p>To learn more about our fresh vegetables <a href="#">Click Here</a></p>
+            </div>
+        </div>
+
+    <!-- Offerings-->
+
+    <div id="offerings">
+        <div class="p">
+        <h2>What We Offer</h2>
+        <!-- <div class="icon"><i class="fa-solid fa-cow"></i></div> -->
+        <h3>Beef & Cattle</h3>
+        <p>Our premium beef offers a tender and savoury eating experience.
+            Our beef does not contain any artificial ingredients.
+        </p>
+        <h3>Dairy Products</h3>
+        <p>We offer farm fresh and pure dairy products.
+            We are supppliers and exporters of dairy products.
+        </p>
+        <!-- <div class="icon"><i class="fa-solid fa-apple-whole"></i></div> -->
+        <h3>Orchard Fruits</h3>
+        <p>We have your fruit favorites.
+        </p>
+    </div>
+    </div>
+    <div id="events">
+        <div class="">
+            <h2>Events</h2>
+        <h4>ACTIVITIES FOR EVERYONE</h4>
+        <p id="date">August 10 - 25</p>
+        <h4>Picking Apples</h4>
+        <img src="handpicking-apple.jpg" alt="">
+        <p>Throughout this season we have picking your own
+            apples event open to everyone including children 
+            under the supervision of their parent or guidian.
+        </p>
+
+        <p id="date">August 10 - 25</p>
+        <h4>Milking Cattles</h4>
+        <img src="milking-cattle.jpg" alt="">
+        <p>Watch our farmers taking out milk from cattles and how the milk are processed into powder and liquid
+             usage for healthy consumption. 
+        </p>
+        </div>
+    </div>
+
+     <!-- Opening Hours -->
+
+     <div class="map">
+        <div id="opening-hours">
+            <h2>Farmers Market</h2>
+            <h3>Opening Hours:</h3>
+            <p>We are open Mondays to Thursdays from 9:00am to 4:00pm
+                and on Saturdays from 7:00am to 12:00pm for fresh farm produce. <br>
+                *NOTE: We are not open on Sundays.
+            </p>
+            <img src="map.png" alt="A map showing the location of the market">
+        </div>
+     </div>
+
+    <!----contact form-->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>To learn more about us or have a question? Send us a messgae.</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>Mile 12, Ketu, Lagos State.</p>
+                    </div>
+                </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+2349024365540</p>
+                        </div>
+                    </div>
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>karenovu26@gmail.com</p>
+                            </div>
+                        </div>
+            </div>
+            <div class="contactForm">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="fn" required>
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" name="em" required>
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message....</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="fn" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="newsletter">
+        <h2>Subscribe To Our Newsletter</h2>
+        <h4>Keep up with the latest Farm news.</h4>
+        <form action="">
+            <input type="email" name="em" placeholder="Enter your email here" required><br><br>
+            <input type="submit" name="sb" value="Subscribe">
+        </form>
+    </div>
+    <footer><p>Fosters Farms &copy 2024. All Rights Reserved.</p></footer>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
